@@ -1,0 +1,13 @@
+plugins { id 'com.android.application' }
+
+android {
+    namespace 'com.veltron.technologies'
+    compileSdk 35
+    defaultConfig {
+        applicationId 'com.veltron.technologies'
+        minSdk 23
+        targetSdk 35
+        versionCode 1
+        versionName '1.0'
+    }
+}
